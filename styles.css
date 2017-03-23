@@ -18,19 +18,16 @@ body {
 .container {
 	width: 50%;
     padding: 2rem;
-    margin: 6rem auto 0;
+    margin: 10rem auto 0;
     max-width: 1000px;
     text-align: center;
-}
-.logo {
-    margin: 0 auto 3rem;
 }
 .text {
 	font-size: 2rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
-.text.error {
+.error {
 	color: #C43336;
 }
 .subtext {
@@ -39,8 +36,9 @@ body {
 	color: #888;
     font-weight: 300;
 }
-.small {
-    font-size: 1rem;
+small {
+    display: block;
+    padding-top: 1em;
 }
 
 a,
